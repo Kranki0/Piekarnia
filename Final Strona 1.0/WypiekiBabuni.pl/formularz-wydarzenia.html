@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="WypiekiBabuni.pl">
+	<meta name="keywords" content="WypiekiBabuni.pl">
+
+	<title>Formularz na Wydarzenia</title>
+	<link rel="shortcut icon" href="rsz_1wypieki.png">
+
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+	<style>
+		body
+		{
+			line-height:23px;
+		}
+		input
+		{
+			width: 400px; 
+			height:19px; 
+			border-style:solid;
+			border-color:black; 
+			background-color:rgb(141, 97, 65);
+			color:white;
+		}
+		button
+		{
+			color:white;
+			background-color:rgb(71, 39, 15);
+			border:solid;
+			border-color:black;
+			padding: 3px 32px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div id="container" style="margin-top:34px">
+
+		<div id="logo">
+			<img src="rsz_1wypieki.png" alt="logo">
+		</div>
+
+		<div id="menu">
+			<a href=taglowna.html>
+				<div class="option"><b>Strona Główna</b></div>
+			</a>
+			<a href=Naszewypieki.html>
+				<div class="option"><b>Nasze Wypieki!</b></div>
+			</a>
+			<a href=adminsite.php>
+				<div class="option"><b>Adminsite</b></div>
+			</a>
+			<a href=formularz-wydarzenia.html>
+				<div class="option"><b>Formularz - klienci</b></div>
+			</a>
+			<a href=FAQ.html>
+				<div class="option"><b>FAQ</b></div>
+			</a>
+			<a href=media.html>
+				<div class="option"><b>Media społecznościowe</b></div>
+			</a>
+			</a>
+			<div style="clear:both;"></div>
+		</div>
+
+		<div id="topbar" style="font-size:18px;text-align:justify;">
+			<h1 style="text-align:center"> Formularz klienci </h1> </br>
+		<form action="dodaj.php" method="post" style="text-align:center;">
+			Imie <br/> <input type="text" name="imie"/> <br/>
+			Nazwisko <br/> <input type="text" name="nazwisko"/> <br/>
+			Wiek <br/> <input type="number" name="wiek"/> <br/>
+			Miasto <br/> <input type="text" name="miasto"/> <br/>
+			Adres <br/> <input type="text" name="adres"/> <br/>
+			Kod-Pocztowy (wg wzoru xx-xxx) <br/> <input type="text" name="kodpocz"/> <br/>
+			Telefon (wg wzoru 000000000) <br/> <input type="number" name="telefon"/> <br/>
+			Adres Email <br/> <input type="text" name="email"/> <br/>
+			<button type="submit">Dodaj klienta </button>
+		</form>
+
+		</div>
+		<div id="footer">
+			
+		</div>
+
+
+	</div>
+
+
+
+</body>
+
+</html>
